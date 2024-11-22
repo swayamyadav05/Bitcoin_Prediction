@@ -1,0 +1,41 @@
+{% extends "base.html" %} {% block content %}
+<div class="card mx-auto" style="max-width: 600px">
+  <div class="card-body">
+    <h1 class="text-center card-title">Bitcoin Price Predictor</h1>
+    <p class="text-center text-muted">
+      Predict future Bitcoin prices with AI-powered analysis.
+    </p>
+    <form method="post" action="/" class="mt-4">
+      <div class="mb-3">
+        <label for="stock" class="form-label">Stock Ticker</label>
+        <input
+          type="text"
+          class="form-control"
+          id="stock"
+          name="stock"
+          placeholder="e.g., BTC-USD"
+          required
+          title="Enter the stock ticker for the cryptocurrency (e.g., BTC-USD)."
+        />
+      </div>
+      <div class="mb-3">
+        <label for="no_of_days" class="form-label"
+          >Number of Days to Predict</label
+        >
+        <input
+          type="number"
+          class="form-control"
+          id="no_of_days"
+          name="no_of_days"
+          min="1"
+          max="100"
+          value="10"
+          required
+          title="Choose the number of days you want to predict (1-100)."
+        />
+      </div>
+      <button type="submit" class="btn btn-primary w-100">Predict</button>
+    </form>
+  </div>
+</div>
+{% endblock %}
