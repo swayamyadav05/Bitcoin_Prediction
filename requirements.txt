@@ -4,7 +4,7 @@ pandas
 numpy
 yfinance
 keras
-sklearn
+scikit-learn
 matplotlib
 io
 base64
