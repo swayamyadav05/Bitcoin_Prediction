@@ -3,6 +3,6 @@ Gunicorn
 pandas
 numpy
 yfinance
-tensorflow
+tensorflow==2.x
 scikit-learn
 matplotlib
