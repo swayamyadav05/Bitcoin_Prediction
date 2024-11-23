@@ -1,0 +1,11 @@
+Flask
+Gunicorn
+pandas
+numpy
+yfinance
+keras
+sklearn
+matplotlib
+io
+base64
+datetime
