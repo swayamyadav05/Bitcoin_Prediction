@@ -3,9 +3,6 @@ Gunicorn
 pandas
 numpy
 yfinance
-keras
+tensorflow  # If using TensorFlow's Keras
 scikit-learn
 matplotlib
-io
-base64
-datetime
